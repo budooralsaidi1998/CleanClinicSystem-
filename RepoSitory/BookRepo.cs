@@ -100,6 +100,23 @@ namespace CleanCllinicSystem.RepoSitory
                 throw new InvalidOperationException("An error occurred while retrieving bookings by clinic and date.", ex);
             }
         }
-    }
 
+        public List<booking> GetBookingsByPatientAndDate(int patientId, string specialization, DateTime date)
+        {
+            try
+            {
+                // Query the bookings by patient ID, specialization, and date
+                var bookings = _context.bookings
+                    .Where(b => b.pid == patientId && b.spec == specialization && b.date.Date == date.Date) // Use .Date to ignore time
+                    .ToList();
+
+                return bookings;
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions (e.g., log the error)
+                throw new InvalidOperationException("An error occurred while retrieving bookings.", ex);
+            }
+        }
+    }
 }

@@ -9,5 +9,6 @@ namespace CleanCllinicSystem.RepoSitory
         List<booking> AppointmentByPaient(string namepaient);
         List<booking> GetBookingsByClinicAndDate(string spec, DateTime date);
         booking GetById(int id);
+        List<booking> GetBookingsByPatientAndDate(int patientId, string specialization, DateTime date);
     }
 }

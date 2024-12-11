@@ -51,7 +51,7 @@ namespace CleanCllinicSystem.Controllers
             catch (ArgumentException ex)
             {
                 // Handle specific argument errors (e.g., invalid specialization or slot count).
-                return BadRequest(CreateErrorResponse(ErrorType.InvalidInput, ex.Message));
+                return BadRequest(CreateErrorResponse(ErrorType.InvalidInput,"check for number slot or check for spec " ));
             }
             catch (InvalidOperationException ex)
             {

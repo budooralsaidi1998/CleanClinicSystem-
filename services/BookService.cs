@@ -42,6 +42,12 @@ namespace CleanCllinicSystem.services
                     throw new ArgumentException("Slot number must be a positive integer.");
                 }
 
+                // Validate if the date is not in the past
+                if (date < DateTime.Now)
+                {
+                    throw new ArgumentException("Appointment date cannot be in the past.");
+                }
+
                 // Get patient by name
                 var patient = _patientservices.GetPatientByName(namep).FirstOrDefault();
 
@@ -55,6 +61,13 @@ namespace CleanCllinicSystem.services
                 if (clinic == null)
                 {
                     throw new KeyNotFoundException("Clinic not found.");
+                }
+
+                // Check if the patient already has an appointment at the clinic on the same date and time
+                var existingAppointment = _bookingrepo.GetBookingsByPatientAndDate(patient.Pid, spe, date);
+                if (existingAppointment.Any(b => b.slot_number == slotNumber))
+                {
+                    throw new InvalidOperationException("Patient already has an appointment at this time and clinic.");
                 }
 
                 // Check if the requested slot is available
@@ -90,7 +103,7 @@ namespace CleanCllinicSystem.services
             }
             catch (InvalidOperationException ex)
             {
-                // Handle specific error: slot already booked
+                // Handle specific error: slot already booked or duplicate appointment
                 throw new InvalidOperationException("Error during appointment booking: " + ex.Message, ex);
             }
             catch (Exception ex)
