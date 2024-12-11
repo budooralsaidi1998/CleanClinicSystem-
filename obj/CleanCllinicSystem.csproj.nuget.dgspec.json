@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\CleanSystemClinic\\CleanCllinicSystem\\CleanCllinicSystem.csproj": {}
+    "C:\\CleanCllinicSystem\\CleanCllinicSystem.csproj": {}
   },
   "projects": {
-    "C:\\projects\\CleanSystemClinic\\CleanCllinicSystem\\CleanCllinicSystem.csproj": {
+    "C:\\CleanCllinicSystem\\CleanCllinicSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\CleanSystemClinic\\CleanCllinicSystem\\CleanCllinicSystem.csproj",
+        "projectUniqueName": "C:\\CleanCllinicSystem\\CleanCllinicSystem.csproj",
         "projectName": "CleanCllinicSystem",
-        "projectPath": "C:\\projects\\CleanSystemClinic\\CleanCllinicSystem\\CleanCllinicSystem.csproj",
+        "projectPath": "C:\\CleanCllinicSystem\\CleanCllinicSystem.csproj",
         "packagesPath": "C:\\Users\\codeline User\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\CleanSystemClinic\\CleanCllinicSystem\\obj\\",
+        "outputPath": "C:\\CleanCllinicSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\codeline User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

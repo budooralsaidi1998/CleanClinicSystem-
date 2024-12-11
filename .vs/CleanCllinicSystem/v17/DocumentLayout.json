@@ -1,7 +1,96 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projects\\CleanSystemClinic\\CleanCllinicSystem\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\CleanCllinicSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\controllers\\bookingconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:controllers\\bookingconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\repository\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:repository\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\repository\\ipatientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:repository\\ipatientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\repository\\iclinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:repository\\iclinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\repository\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:repository\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\repository\\clinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:repository\\clinicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\repository\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:repository\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\controllers\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:controllers\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\services\\pateientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:services\\pateientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\services\\ipateientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:services\\ipateientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\services\\clinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:services\\clinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\services\\iclinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:services\\iclinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CleanCllinicSystem\\Migrations\\20241211093145_updatespeci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241211093145_updatespeci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\cleancllinicsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:cleancllinicsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|c:\\cleancllinicsystem\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F2E0207-F90F-4613-B545-69C6FB9BBF26}|CleanCllinicSystem.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +98,301 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPateientService.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\services\\IPateientService.cs",
+              "RelativeDocumentMoniker": "services\\IPateientService.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\services\\IPateientService.cs",
+              "RelativeToolTip": "services\\IPateientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:52:13.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PateientService.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\services\\PateientService.cs",
+              "RelativeDocumentMoniker": "services\\PateientService.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\services\\PateientService.cs",
+              "RelativeToolTip": "services\\PateientService.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:30:08.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClinicController.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\Controllers\\ClinicController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClinicController.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\Controllers\\ClinicController.cs",
+              "RelativeToolTip": "Controllers\\ClinicController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:39:44.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:28:25.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClinicRepo.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\RepoSitory\\ClinicRepo.cs",
+              "RelativeDocumentMoniker": "RepoSitory\\ClinicRepo.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\RepoSitory\\ClinicRepo.cs",
+              "RelativeToolTip": "RepoSitory\\ClinicRepo.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:22:24.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPatientRepo.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\RepoSitory\\IPatientRepo.cs",
+              "RelativeDocumentMoniker": "RepoSitory\\IPatientRepo.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\RepoSitory\\IPatientRepo.cs",
+              "RelativeToolTip": "RepoSitory\\IPatientRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:33:44.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientRepo.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\RepoSitory\\PatientRepo.cs",
+              "RelativeDocumentMoniker": "RepoSitory\\PatientRepo.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\RepoSitory\\PatientRepo.cs",
+              "RelativeToolTip": "RepoSitory\\PatientRepo.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAEYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:29:48.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\services\\BookService.cs",
+              "RelativeDocumentMoniker": "services\\BookService.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\services\\BookService.cs",
+              "RelativeToolTip": "services\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:06:23.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bookingConroller.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\Controllers\\bookingConroller.cs",
+              "RelativeDocumentMoniker": "Controllers\\bookingConroller.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\Controllers\\bookingConroller.cs",
+              "RelativeToolTip": "Controllers\\bookingConroller.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowGkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:04:40.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookRepo.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\RepoSitory\\BookRepo.cs",
+              "RelativeDocumentMoniker": "RepoSitory\\BookRepo.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\RepoSitory\\BookRepo.cs",
+              "RelativeToolTip": "RepoSitory\\BookRepo.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAqwGgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:05:27.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IClinicRepo.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\RepoSitory\\IClinicRepo.cs",
+              "RelativeDocumentMoniker": "RepoSitory\\IClinicRepo.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\RepoSitory\\IClinicRepo.cs",
+              "RelativeToolTip": "RepoSitory\\IClinicRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:25:43.863Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClinicService.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\services\\ClinicService.cs",
+              "RelativeDocumentMoniker": "services\\ClinicService.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\services\\ClinicService.cs",
+              "RelativeToolTip": "services\\ClinicService.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAswKkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:22:22.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookRepo.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\RepoSitory\\IBookRepo.cs",
+              "RelativeDocumentMoniker": "RepoSitory\\IBookRepo.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\RepoSitory\\IBookRepo.cs",
+              "RelativeToolTip": "RepoSitory\\IBookRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:30:23.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IClinicService.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\services\\IClinicService.cs",
+              "RelativeDocumentMoniker": "services\\IClinicService.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\services\\IClinicService.cs",
+              "RelativeToolTip": "services\\IClinicService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:19:43.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241211093145_updatespeci.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\Migrations\\20241211093145_updatespeci.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241211093145_updatespeci.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\Migrations\\20241211093145_updatespeci.cs",
+              "RelativeToolTip": "Migrations\\20241211093145_updatespeci.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:31:45.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "patientController.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\Controllers\\patientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\patientController.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\Controllers\\patientController.cs",
+              "RelativeToolTip": "Controllers\\patientController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:30:34.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CleanCllinicSystem.csproj",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\CleanCllinicSystem.csproj",
+              "RelativeDocumentMoniker": "CleanCllinicSystem.csproj",
+              "ToolTip": "C:\\CleanCllinicSystem\\CleanCllinicSystem.csproj",
+              "RelativeToolTip": "CleanCllinicSystem.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T05:28:21.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\CleanCllinicSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T12:25:59.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbcontext.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\AppDbcontext.cs",
+              "RelativeDocumentMoniker": "AppDbcontext.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\AppDbcontext.cs",
+              "RelativeToolTip": "AppDbcontext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:25:11.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\models\\Patient.cs",
+              "RelativeDocumentMoniker": "models\\Patient.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\models\\Patient.cs",
+              "RelativeToolTip": "models\\Patient.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:19:34.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\models\\Clinic.cs",
+              "RelativeDocumentMoniker": "models\\Clinic.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\models\\Clinic.cs",
+              "RelativeToolTip": "models\\Clinic.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:19:22.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "booking.cs",
+              "DocumentMoniker": "C:\\CleanCllinicSystem\\models\\booking.cs",
+              "RelativeDocumentMoniker": "models\\booking.cs",
+              "ToolTip": "C:\\CleanCllinicSystem\\models\\booking.cs",
+              "RelativeToolTip": "models\\booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:19:02.126Z",
+              "EditorCaption": ""
             }
           ]
         }
