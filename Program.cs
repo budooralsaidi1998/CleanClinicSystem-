@@ -15,6 +15,8 @@ namespace CleanCllinicSystem
             // Add services to the container.
             builder.Services.AddScoped<IPateientService, PateientService>();
             builder.Services.AddScoped<IPatientRepo, PatientRepo>();
+            builder.Services.AddScoped<IClinicService, ClinicService>();
+            builder.Services.AddScoped<IClinicRepo, ClinicRepo>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
