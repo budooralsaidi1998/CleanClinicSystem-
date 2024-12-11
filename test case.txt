@@ -1,0 +1,144 @@
+.Test Case for Patient 
+------------------------------------------------------------
+
+1. AddPatient(Patient patient)
+Scenario: Test that the method throws an exception when the patient's name is null or empty.
+Scenario: Test that the method successfully adds a patient and returns a success message.
+
+2. GetAllPatient()
+Scenario: Test that the method throws an exception if no patients are found.
+Scenario: Test that the method successfully returns a list of patients sorted by name.
+
+3. GetPatientByName(string name)
+Scenario: Test that the method throws an exception if no patient is found by the name.
+Scenario: Test that the method successfully returns a patient when a valid name is provided.
+
+
+
+to implement 
+Input: Patient { pname = "John Doe", age = 25 }
+Expected Result: Return "Added Successfully."
+Invalid Patient Name (Empty or Null):
+
+Input: Patient { pname = "", age = 25 }
+Expected Result: ArgumentException, message "Name of patient is required."
+Invalid Age (Zero or Negative):
+
+Input: Patient { pname = "Jane Doe", age = 0 }
+Expected Result: ArgumentException, message "Age of patient must be a positive number."
+Age Out of Range (1 to 120):
+
+Input: Patient { pname = "Baby Doe", age = -5 }
+Expected Result: ArgumentException, message "Age must be between 1 and 120."
+
+------------------------------------------------------
+test case for clinic 
+ViewClinicDetatils:
+
+Tests whether the method returns a list of clinics (when clinics exist) and an empty list (when no clinics exist).
+
+AddClinic:
+
+Validates the behavior when a valid clinic is added, a clinic with missing specialization, and a clinic with more than 20 slots.
+
+GetAllClinic:
+
+Tests whether the method returns clinics ordered by num_of_slots in descending order when clinics exist and throws an exception when no clinics are found.
+
+GetClinicsBySpecialization:
+
+Tests whether the method returns clinics for a given specialization when clinics exist and throws an exception when no clinics are found.
+
+UpdateAvailableSlots:
+
+Tests whether the method correctly decreases the number of available slots for a clinic when slots are available and throws an exception when no slots are available or when the clinic doesn't exist.
+
+to immplenmrnt
+
+Valid Input:
+
+Input: Clinic { spe = "Cardiology", num_of_slots = 10 }
+Expected Result: "Added Successfully."
+Invalid Specialization (Empty):
+
+Input: Clinic { spe = "", num_of_slots = 10 }
+Expected Result: ArgumentException, message "Specification is required."
+Exceeding Slot Limit:
+
+Input: Clinic { spe = "Dermatology", num_of_slots = 25 }
+Expected Result: ArgumentException, message "Maximum number of slots allowed is 20."
+Negative Slot Count:
+
+Input: Clinic { spe = "Neurology", num_of_slots = -5 }
+Expected Result: ArgumentOutOfRangeException, message "Number of slots cannot be negative."
+3. GetAllClinic (Fetch All Clinics Ordered by Slots)
+Input: No parameters
+Expected Result: Return a list of clinics ordered by descending slots. If no clinics exist, throw InvalidOperationException, message "No clinics found."
+4. GetClinicsBySpecialization (Fetch Clinics by Specialization)
+Valid Input:
+Input: specialization = "Orthopedics"
+Expected Result: Return a list of clinics that match the specialization.
+Invalid Input (No Clinics for Specialization):
+Input: specialization = "Psychiatry"
+Expected Result: InvalidOperationException, message "No clinics found with the given specialization."
+5. UpdateAvailableSlots (Update Clinic's Available Slots)
+Valid Input (Available Slot):
+
+Input: specializationn = "Cardiology" (clinic with available slots)
+Expected Result: Decrement the slot count by 1 and update the clinic.
+Invalid Input (No Slots Left):
+
+Input: specializationn = "Neurology" (clinic with no available slots)
+Expected Result: InvalidOperationException, message "No available slots left."
+Invalid Specialization (Clinic Not Found):
+
+Input: specializationn = "UnknownSpecialization"
+Expected Result: InvalidOperationException, message "Clinic not found."
+6. General Error Handling
+Input: Simulate a database failure
+Expected Result: InvalidOperationException, message "An error occurred while fetching clinic details/adding/updating slots."
+
+
+-----------------------------------------------------------------
+test case for booking 
+
+Valid Input (Successful Booking)
+
+Input: namep="John Doe", spe="Dermatology", date="2024-12-12", slotNumber=1
+Expected: Appointment booked successfully, status code 200.
+Empty Patient Name
+
+Input: namep=""
+Expected: ArgumentException, message "Patient name cannot be empty."
+Empty Specialization
+
+Input: spe=""
+Expected: ArgumentException, message "Specialization cannot be empty."
+Invalid Slot Number (Zero/Negative)
+
+Input: slotNumber=0
+Expected: ArgumentException, message "Slot number must be a positive integer."
+Patient Not Found
+
+Input: namep="Unknown Patient"
+Expected: KeyNotFoundException, message "Patient not found."
+Clinic Not Found
+
+Input: spe="Cardiology" (non-existing specialization)
+Expected: KeyNotFoundException, message "Clinic not found."
+Slot Already Booked
+
+Input: slotNumber=1 (already booked slot)
+Expected: InvalidOperationException, message "Slot is already booked."
+Invalid Date (Past Date)
+
+Input: date="2020-12-12" (past date)
+Expected: ArgumentException, message "Appointment date cannot be in the past."
+Multiple Slots Booking
+
+Input: slotNumber=2 (if slot 1 is already booked)
+Expected: Appointment booked successfully.
+General Error (Unexpected Failure)
+
+Input: Valid Data but simulate a failure (e.g., database error)
+Expected: Exception, message "An unexpected error occurred while booking the appointmen
