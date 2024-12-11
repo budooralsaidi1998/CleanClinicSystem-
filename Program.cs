@@ -1,4 +1,6 @@
 
+using CleanCllinicSystem.RepoSitory;
+using CleanCllinicSystem.services;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanCllinicSystem
@@ -11,7 +13,8 @@ namespace CleanCllinicSystem
             builder.Services.AddDbContext<AppDbcontext>(options =>
                   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Add services to the container.
-
+            builder.Services.AddScoped<IPateientService, PateientService>();
+            builder.Services.AddScoped<IPatientRepo, PatientRepo>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
