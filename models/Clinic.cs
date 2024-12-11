@@ -1,12 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CleanCllinicSystem.models
 {
     public class Clinic
     {
-        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [Required]
+        [Key]
         public string spe { get; set; }
         [Required]
         public int num_of_slots { get; set; }

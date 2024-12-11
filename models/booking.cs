@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanCllinicSystem.models
 {
-    [PrimaryKey(nameof(pid), nameof(cid), nameof(date))]
+    [PrimaryKey(nameof(pid), nameof(spec), nameof(date))]
     public class booking
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -22,7 +22,7 @@ namespace CleanCllinicSystem.models
         public virtual Patient patients { get; set; }
 
         [ForeignKey("clinics")]
-        public int cid { get; set; }
+        public string  spec { get; set; }
         public virtual Clinic clinics { get; set; }
 
     }
